@@ -13,7 +13,7 @@ color: #333;
 }
 
 header {
-background-color: #2200ff;
+background-color: blue;
 color: white;
 text-align: center;
 padding: 1.5rem 1rem;
@@ -27,7 +27,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background-color: #333;
+    background-color: black;
     padding: 0.5rem 0;
 }
 
@@ -125,4 +125,8 @@ nav a:hover {
 li:hover {
     transform: scale(1.01);
     transition: transform 0.3s ;
+}
+
+.hero {
+background-image: url("images.jpeg");
 }
